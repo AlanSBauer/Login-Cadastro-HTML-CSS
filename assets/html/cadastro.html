@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Pagina Web</title>
+		<link rel="stylesheet" href="../css/style.css" />
+	</head>
+	<body>
+		<section>
+			<div class="container">
+				<div class="content">
+					<h1>Cadastre-se</h1>
+					<!-- no form utilizaria o metodo post, porem para testar com html tem que utilizar o get mesmo -->
+					<form method="get" action="../../index.html">
+						<label>
+							Nome Completo
+							<input type="text" name="name" required autofocus />
+						</label>
+						<label>
+							Email:
+							<input type="email" name="email" placeholder="exemplo@gmail.com" required />
+						</label>
+						<label>
+							Senha:
+							<input type="password" name="senha" placeholder="exemplosenha123" required />
+						</label>
+						<label>
+							Repita a senha:
+							<input type="password" name="senha" placeholder="exemplosenha123" required />
+						</label>
+						<label>
+							Data de Nascimento
+							<input type="date" name="" id="" required />
+						</label>
+						<div class="cadastrar">
+							<input type="submit" value="Cadastrar" id="cadastrar" />
+						</div>
+					</form>
+				</div>
+			</div>
+		</section>
+	</body>
+</html>

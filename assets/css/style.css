@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Winky+Rough&display=swap');
+/* teste de importação de fonte externa */
+
+* {
+	font-family: Winky Rough, Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 350px;
+	height: auto;
+	background-color: rgb(255, 255, 255);
+	border: 1px solid black;
+	border-radius: 20px;
+	box-shadow: 2px 2px 4px black;
+	padding: 20px;
+}
+.content h1 {
+	font-size: 35px;
+	margin-bottom: 20px;
+}
+.buttons {
+	display: flex;
+}
+.buttons input {
+	padding: 10;
+	height: 40px;
+	flex: 1;
+	margin: 2px;
+}
+form {
+	width: 300px;
+	margin: 2px;
+}
+form input {
+	width: 275px;
+	margin: 2px;
+	padding: 10px;
+	border-radius: 5px;
+}
+label {
+	width: 324px;
+}
+.rec-senha {
+	text-align: center;
+}
+#check {
+	width: 20px;
+	margin-top: 5px;
+	cursor: pointer;
+}
+form a {
+	color: blue;
+}
+form a:hover {
+	color: black;
+}
+.buttons input:hover {
+	color: blue;
+	cursor: pointer;
+}
+.cadastrar {
+	display: flex;
+	justify-content: center;
+}
+#cadastrar {
+	width: 100px;
+	margin-top: 20px;
+}

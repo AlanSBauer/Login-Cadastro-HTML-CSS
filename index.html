@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Login</title>
+		<link rel="stylesheet" href="assets/css/style.css" />
+	</head>
+	<body>
+		<section>
+			<div class="container">
+				<div class="content">
+					<h1>Login</h1>
+					<!-- no form utilizaria o metodo post, porem para testar com html tem que utilizar o get mesmo -->
+					<form method="get" action="assets/html/login.html">
+						<label>
+							Email:
+							<br />
+							<input type="email" name="email" placeholder="exemplo@email.com" autofocus required />
+						</label>
+						<br />
+						<label>
+							Senha:
+							<br />
+							<input id="senha" type="password" name="senha" required placeholder="Ex: Senha123" minlength="3" />
+						</label>
+						<div class="check">
+							<label>
+								<input type="checkbox" name="check" id="check" />
+								Lembrar senha
+								<div class="teste"></div>
+							</label>
+						</div>
+						<br />
+						<div class="buttons">
+							<input type="submit" value="Entrar" />
+							<input class="ml-5px" type="button" value="Cadastre-se" onclick="window.location.href='assets/html/cadastro.html';" />
+							<br />
+						</div>
+						<div class="rec-senha">
+							<a href="assets/html/recuperar-senha.html">Esqueci minha senha</a>
+						</div>
+					</form>
+				</div>
+			</div>
+		</section>
+	</body>
+</html>
